@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		F2B15F661FC3A28E00796CC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B15F651FC3A28E00796CC3 /* AppDelegate.swift */; };
 		F2B15F681FC3A28E00796CC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B15F671FC3A28E00796CC3 /* ViewController.swift */; };
-		F2B15F6B1FC3A28E00796CC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2B15F691FC3A28E00796CC3 /* Main.storyboard */; };
+		F2B15F6B1FC3A28E00796CC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2B15F691FC3A28E00796CC3 /* Main.storyboard */; settings = {ASSET_TAGS = ("Tip Calculator", ); }; };
 		F2B15F6D1FC3A28E00796CC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2B15F6C1FC3A28E00796CC3 /* Assets.xcassets */; };
 		F2B15F701FC3A28E00796CC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2B15F6E1FC3A28E00796CC3 /* LaunchScreen.storyboard */; };
 		F2B15F7B1FC3A28F00796CC3 /* TippyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B15F7A1FC3A28F00796CC3 /* TippyTests.swift */; };
@@ -187,6 +187,9 @@
 		F2B15F5A1FC3A28E00796CC3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					"Tip Calculator",
+				);
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Chris Peng";
