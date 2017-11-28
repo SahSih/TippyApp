@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F24D71BF1FCCD94E00EE5511 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24D71BE1FCCD94E00EE5511 /* SettingViewController.swift */; };
+		F24D71C11FCD188D00EE5511 /* Tippy.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F24D71C01FCD188D00EE5511 /* Tippy.xcassets */; };
 		F2B15F661FC3A28E00796CC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B15F651FC3A28E00796CC3 /* AppDelegate.swift */; };
 		F2B15F681FC3A28E00796CC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B15F671FC3A28E00796CC3 /* ViewController.swift */; };
 		F2B15F6B1FC3A28E00796CC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2B15F691FC3A28E00796CC3 /* Main.storyboard */; settings = {ASSET_TAGS = ("Tip Calculator", ); }; };
-		F2B15F6D1FC3A28E00796CC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2B15F6C1FC3A28E00796CC3 /* Assets.xcassets */; };
 		F2B15F701FC3A28E00796CC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2B15F6E1FC3A28E00796CC3 /* LaunchScreen.storyboard */; };
 		F2B15F7B1FC3A28F00796CC3 /* TippyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B15F7A1FC3A28F00796CC3 /* TippyTests.swift */; };
 		F2B15F861FC3A28F00796CC3 /* TippyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B15F851FC3A28F00796CC3 /* TippyUITests.swift */; };
+		F2F51A421FCC9BAC00052290 /* TipData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2F51A401FCC9BAC00052290 /* TipData.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F24D71BE1FCCD94E00EE5511 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		F24D71C01FCD188D00EE5511 /* Tippy.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Tippy.xcassets; sourceTree = "<group>"; };
 		F2B15F621FC3A28E00796CC3 /* Tippy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tippy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2B15F651FC3A28E00796CC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2B15F671FC3A28E00796CC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F2B15F6A1FC3A28E00796CC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F2B15F6C1FC3A28E00796CC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2B15F6F1FC3A28E00796CC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2B15F711FC3A28E00796CC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2B15F761FC3A28F00796CC3 /* TippyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TippyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +50,7 @@
 		F2B15F811FC3A28F00796CC3 /* TippyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TippyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2B15F851FC3A28F00796CC3 /* TippyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TippyUITests.swift; sourceTree = "<group>"; };
 		F2B15F871FC3A28F00796CC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2F51A411FCC9BAC00052290 /* TipData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TipData.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				F2B15F651FC3A28E00796CC3 /* AppDelegate.swift */,
+				F24D71C01FCD188D00EE5511 /* Tippy.xcassets */,
 				F2B15F671FC3A28E00796CC3 /* ViewController.swift */,
+				F24D71BE1FCCD94E00EE5511 /* SettingViewController.swift */,
 				F2B15F691FC3A28E00796CC3 /* Main.storyboard */,
-				F2B15F6C1FC3A28E00796CC3 /* Assets.xcassets */,
 				F2B15F6E1FC3A28E00796CC3 /* LaunchScreen.storyboard */,
 				F2B15F711FC3A28E00796CC3 /* Info.plist */,
+				F2F51A401FCC9BAC00052290 /* TipData.xcdatamodeld */,
 			);
 			path = Tippy;
 			sourceTree = "<group>";
@@ -235,8 +241,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F24D71C11FCD188D00EE5511 /* Tippy.xcassets in Resources */,
 				F2B15F701FC3A28E00796CC3 /* LaunchScreen.storyboard in Resources */,
-				F2B15F6D1FC3A28E00796CC3 /* Assets.xcassets in Resources */,
 				F2B15F6B1FC3A28E00796CC3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,8 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2F51A421FCC9BAC00052290 /* TipData.xcdatamodeld in Sources */,
 				F2B15F681FC3A28E00796CC3 /* ViewController.swift in Sources */,
 				F2B15F661FC3A28E00796CC3 /* AppDelegate.swift in Sources */,
+				F24D71BF1FCCD94E00EE5511 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +437,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UM28K4FT2G;
 				INFOPLIST_FILE = Tippy/Info.plist;
@@ -444,6 +453,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UM28K4FT2G;
 				INFOPLIST_FILE = Tippy/Info.plist;
@@ -561,6 +571,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F2F51A401FCC9BAC00052290 /* TipData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F2F51A411FCC9BAC00052290 /* TipData.xcdatamodel */,
+			);
+			currentVersion = F2F51A411FCC9BAC00052290 /* TipData.xcdatamodel */;
+			path = TipData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F2B15F5A1FC3A28E00796CC3 /* Project object */;
 }
