@@ -129,21 +129,21 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="cTf-SI-rPu">
                                 <rect key="frame" x="139" y="198" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="fTW-s4-Hta">
                                 <rect key="frame" x="244" y="198" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="v8K-pz-GXT">
                                 <rect key="frame" x="109" y="284" width="156" height="64"/>
@@ -151,13 +151,30 @@
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Save"/>
+                                <connections>
+                                    <action selector="SaveTipChange:" destination="pHE-Ja-5jT" eventType="touchUpInside" id="wa9-PT-PHB"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="q8l-FQ-U4K" appends="YES" id="wh0-Hu-Wjz"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" id="DEa-cd-YrT"/>
+                    <connections>
+                        <outlet property="tip1" destination="2fD-8i-vOa" id="6pp-aZ-HSY"/>
+                        <outlet property="tip2" destination="cTf-SI-rPu" id="9EW-Va-Exb"/>
+                        <outlet property="tip3" destination="fTW-s4-Hta" id="SC4-Em-7oQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Fo-ME-vNe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="q8l-FQ-U4K">
+                    <connections>
+                        <action selector="OnTap:" destination="pHE-Ja-5jT" id="zuj-R6-DDU"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1039.5" y="130.5"/>
         </scene>

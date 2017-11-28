@@ -10,6 +10,10 @@ import UIKit
 
 class SettingViewController: UIViewController {
 
+    @IBOutlet weak var tip1: UITextField!
+    @IBOutlet weak var tip2: UITextField!
+    @IBOutlet weak var tip3: UITextField!
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,7 +25,13 @@ class SettingViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func OnTap(_ sender: Any) {
+        view.endEditing(true)
+    }
 
+    @IBAction func SaveTipChange(_ sender: Any) {
+        print("save")
+    }
     /*
     // MARK: - Navigation
 
