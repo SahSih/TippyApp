@@ -89,7 +89,7 @@
                     <navigationItem key="navigationItem" id="jnF-TV-u0R">
                         <barButtonItem key="rightBarButtonItem" title="Setting" id="usQ-Y8-KMg">
                             <connections>
-                                <segue destination="pHE-Ja-5jT" kind="push" id="JkV-IX-HoE"/>
+                                <segue destination="pHE-Ja-5jT" kind="push" identifier="segue" id="JkV-IX-HoE"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -152,7 +152,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Save"/>
                                 <connections>
-                                    <action selector="SaveTipChange:" destination="pHE-Ja-5jT" eventType="touchUpInside" id="wa9-PT-PHB"/>
+                                    <action selector="SaveTipChange:" destination="pHE-Ja-5jT" eventType="touchUpInside" id="4AJ-jq-kvC"/>
                                 </connections>
                             </button>
                         </subviews>
